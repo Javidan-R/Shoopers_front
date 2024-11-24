@@ -1,0 +1,44 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header, .footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .layout-content {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-details {
+    padding: 20px;
+  }
+  
+  .cart-summary, .order-history, .wishlist {
+    padding: 20px;
+  }
+  
+  .notification {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
